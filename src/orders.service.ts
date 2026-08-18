@@ -11,7 +11,7 @@ export interface Order {
   quantity: number;
 }
 
-interface CreateOrder {
+export interface CreateOrder {
   productId: string;
   quantity: number;
 }
@@ -25,6 +25,7 @@ export class OrdersService {
   async create(userId: string, request: CreateOrder): Promise<Order> {
     if (
       !userId ||
+      !request ||
       !Number.isInteger(request.quantity) ||
       request.quantity < 1
     ) {
