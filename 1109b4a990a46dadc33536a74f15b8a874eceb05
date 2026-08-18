@@ -1,0 +1,23 @@
+src/app.module.ts
+  b4230ef6ea2730fd 4-5,9-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.2",
+  "base_commit_sha": "1109b4a990a46dadc33536a74f15b8a874eceb05",
+  "prompts": {
+    "b4230ef6ea2730fd": {
+      "agent_id": {
+        "tool": "droid",
+        "id": "26c16b2e-f59f-4a19-94d5-f67e4e1aafd1",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Brian Vethanayagam",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 2,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
